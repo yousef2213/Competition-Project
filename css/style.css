@@ -1,0 +1,918 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -kebkit-box-sizing: border-box;
+    font-family: sans-serif;
+}
+ul, li{
+   list-style: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+
+
+                    /*      first header & banner    */
+
+
+.header{
+    background-image: url(../img/back%201.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.header h2{
+    color: #fff;
+    text-transform: uppercase;
+    width: 20%;
+    float: left;
+    margin-top: 20px;
+}
+.opacity{
+    background: rgba(0, 0, 0, .4);
+    position: absolute;
+    width: 100%;
+    height: 600px;
+}
+.header ul{
+    width: 80%;
+    float: left;
+    text-align: right;
+    margin-top: 20px;
+}
+.header ul li{
+    display: inline-block;
+    width: 100px;
+}
+
+.header ul li a{
+    text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff
+}
+
+.banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 100%;
+    text-align: center;
+}
+.banner h3{
+    font-size: 35px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 45px;
+    padding-bottom: 20px;
+    
+}
+.banner button{
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+.banner .btn-1{
+    background: #0984e3
+    
+}
+.banner .btn-2{
+    background: none;
+    border: 1px solid #fff;
+    margin-left: 5px;
+}
+
+
+        /*  first icon  */
+
+
+.icon{
+    margin-top: 100px;
+    width: 100%;
+    margin-left: 30px;
+}
+.icon .icon-1{
+    width: 30%;
+    float: left
+}
+.icon  h2 a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #0984e3;
+}
+.icon ion-icon{
+    font-size: 70px;
+    color: #0984e3;
+    padding-bottom: 40px;
+    margin-left: -5px;
+     font-weight: 100; 
+}
+
+
+.icon  h2{
+    padding-bottom: 20px;
+    font-weight: 300
+}
+.icon  p{
+    color: #333;
+    line-height: 27px;
+    padding-bottom: 40px
+}
+.icon  span{
+   color: #0984e3;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.icon  span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.icon-2{
+    width: 30%;
+    float: left;
+    margin-left: 50px;
+}
+.icon-3{
+    width: 30%;
+    float: left;
+    margin-left: 50px;
+}
+.icon-3 i{
+     font-size: 70px;
+    color: #0984e3;
+    padding-bottom: 40px;
+    margin-left: -5px;
+    font-weight: 100; 
+}
+
+
+            /*  finish icon   */
+
+            /* First .features */   
+
+
+.features{
+    margin-top: 150px;
+    width: 100%;
+    background: #d5e7fb;
+    height: 1900px;
+}
+.features .h-2{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.features .over{
+    width: 60px;
+    height: 2px;
+    background: #0984e3;
+    left: 47.5%;  
+    position: absolute;
+}
+.features h3{
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+    font-size: 15px;
+    line-height: 27px;
+    color: #333;
+    padding-bottom: 100px;
+
+}
+
+.features-1{
+    width: 100%;
+    padding-left: 30px
+}
+.features-1 .fea-1{
+    width: 50%;
+    float: left;
+}
+.features-1 .fea-1 img{
+    width: 650px;
+    height: 400px;
+    padding-left: 20px;
+    box-shadow: 8px 10px 10px #999
+}
+
+
+.features-1 .fea-2{
+    width: 50%;
+    float: left;
+    height: 450px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.features-1 .fea-2 p{
+    font-size: 20px;
+    color: #0984e9;
+    line-height: 30px;
+    text-transform: capitalize;
+    
+}
+.features-1 .fea-2 h5{
+    padding-top: 20px;
+    line-height: 27px;
+    color: #333
+}
+.features-1 .fea-2 .h-6{
+    padding-top: 50px;
+    
+}
+.features-1 .fea-2 .h-6 i{
+    font-size: 15px;
+    color: #0984e9;
+    padding: 10px 0;
+}
+.features-1 .fea-2 .h-6 h6{
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #333
+}
+
+
+                /*  first  ban-2    */
+
+.ban-2{
+    width: 100%;
+    height: 450px;
+    padding-top: 70px;
+    padding-bottom: 50px
+}
+
+.ban-2 .ban-2-logo{
+    padding-left: 200px;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.ban-2 .ban-2-logo h2{
+    color: #0984e9;
+     font-size: 24px;
+    line-height: 30px;
+    font-weight: 500
+
+}
+.ban-2 .ban-2-logo h5{
+    padding-top: 20px;
+    line-height: 27px;
+    color: #333
+}
+
+.ban-2 .ban-2-logo i{
+    font-size: 15px;
+    color: #0984e9;
+    padding: 10px 0;
+}
+.ban-2 .ban-2-logo h6{
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #333
+}
+.h-7{
+    padding-top: 50px;
+}
+.ban-2-img{
+    width: 50%;
+    float: left;
+}
+.ban-2-img img{
+    width: 650px;
+    height: 400px;
+    box-shadow: 8px 10px 10px #999;
+}
+
+        /* Finish ban-2 */
+
+
+        /* first bann-3 */
+
+.ban-3{
+    width: 100%;
+    padding-left: 30px;
+
+}
+.features .bann{
+    width: 50%;
+    float: left;
+}
+.features .bann img{
+    width: 650px;
+    height: 400px;
+    padding-left: 20px;
+    box-shadow: 8px 10px 10px #999
+}
+
+.features .bann-2{
+    width: 50%;
+    float: left;
+    height: 450px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.features .bann-2 p{
+    font-size: 25px;
+    color: #0984e9;
+    line-height: 30px;
+    text-transform: capitalize;
+    
+}
+.features .bann-2 h5{
+    padding-top: 20px;
+    line-height: 27px;
+    color: #333
+}
+.features .bann-2 .h-11{
+    padding-top: 50px;
+}
+.features .bann-2 .h-11 i{
+    font-size: 15px;
+    color: #0984e9;
+    padding: 10px 0;
+}
+.features .bann-2 .h-11 h6{
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #333
+}/* finish bann-3 */
+
+
+        /* finish features */
+
+
+        /* First Chosse*/
+
+.choose{
+    width: 100%;
+    margin-top: 100px;
+
+}
+.choose h1{
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    position: relative;
+}
+.over-2{
+    width: 60px;
+    position: absolute;
+    height: 2px;
+    background: #0984e3;
+    left: 47%;
+}
+.choose h3{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    color: #333;
+    font-size: 17px;
+    line-height: 25px
+}
+.saller{
+    width: 100%;
+    margin-top: 100px;
+    height: 430px
+}
+.saller-1 , .saller-2 , .saller-3{
+    width: 32%;
+    margin-left: 13px;
+    height: 100%;
+    float: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+    box-shadow: 2px 5px 10px #999
+}
+.saller-1 h6 ,.saller-2 h6,.saller-3 h6{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    box-sizing: border-box;
+    font-size: 8px;
+    font-weight: 400;
+    padding-bottom: 10px
+}
+.saller-1 h2 ,.saller-2 h2,.saller-3 h2{
+    text-align: center;
+    color: #0984e9;
+    font-size: 35px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.saller-1 p ,.saller-2 p,.saller-3 p{
+    padding-bottom: 10px;
+    text-align: center;
+    font: italic bold 12px/30px serif;
+    color: #c9c5c5;
+    padding-bottom: 30px
+}
+
+
+.animat{
+    padding-left: 20px;
+    line-height: 20px
+    
+}
+
+.animat h5{
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    color: #333
+}
+.animat h5 i{
+    color: #0984e9;
+}
+
+.saller-1 button ,.saller-2 button,.saller-3 button{
+    width: 130px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.saller-1 .btn-1 ,.saller-3 .btn-3{
+    border: 0;
+    background: #000;
+    color: #fff;
+    text-transform: capitalize
+}
+.saller-2 .btn-2{
+    border: 0;
+    background: #0984e9;
+    text-transform: capitalize;
+    color: #fff
+}/*Finish choose*/
+
+
+
+.client{
+    width: 100%;
+    background: #d5e7fb;
+    margin-top: 80px;
+    height: 1300px;
+    position: relative;
+}
+.client h2{
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    text-transform: capitalize;
+    padding-bottom: 20px
+}
+.over-3{
+    position: absolute;
+    left: 48%;
+    background: #0984e9;
+    height: 2px;
+    width: 50px;
+}
+.client p{
+    width: 100%;text-align: center;
+    padding-top: 50px;
+    color: #333;
+    line-height: 25px;
+}
+.name-client{
+    width: 100%;
+    padding-top: 100px;
+}
+.name-client .name-1{
+    width: 28%;
+    background: #fff;
+    height: 380px;
+    padding-left: 20px;
+    padding-top: 20px;
+    float: left
+}
+.name-client .name-1 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: block;
+    box-sizing: border-box;
+
+    
+}
+.name-client .name-1 i{
+    padding-top: 20px;
+    font-size: 10px;
+    margin-left: 5px;
+    color: #ff9800
+}
+.name-client .name-1 span{
+    display: block;
+    padding-top: 40px;
+    line-height: 30px;
+    font-weight: bold
+}
+.name-client .name-1 label{
+    color: #333
+}
+
+
+.name-client .name-2{
+    width: 30%;
+    background: #fff;
+    height: 380px;
+    padding-left: 20px;
+    padding-top: 20px;
+    float: left;
+    margin-left: 25px;
+}
+.name-client .name-2 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: block;
+    box-sizing: border-box;
+
+    
+}
+.name-client .name-2 i{
+    padding-top: 20px;
+    font-size: 10px;
+    margin-left: 5px;
+    color: #ff9800
+}
+.name-client .name-2 span{
+    display: block;
+    padding-top: 40px;
+    line-height: 30px;
+    font-weight: bold;
+    padding-bottom: 33px
+}
+.name-client .name-2 label{
+    color: #333;
+}
+
+
+
+/**/
+
+
+.name-client .name-3{
+    width: 30%;
+    background: #fff;
+    height: 380px;
+    padding-left: 20px;
+    padding-top: 20px;
+    float: left;
+    margin-left: 25px;
+}
+.name-client .name-3 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: block;
+    box-sizing: border-box;
+
+    
+}
+.name-client .name-3 i{
+    padding-top: 20px;
+    font-size: 10px;
+    margin-left: 5px;
+    color: #ff9800
+}
+.name-client .name-3 span{
+    display: block;
+    padding-top: 40px;
+    line-height: 30px;
+    font-weight: bold;
+
+}
+.name-client .name-3 label{
+    color: #333;
+}
+
+/**/
+
+.name-client .name-4{
+    width: 28%;
+    background: #fff;
+    height: 250px;
+    padding-left: 20px;
+    padding-top: 20px;
+    float: left;
+    margin-top: 25px;
+}
+.name-client .name-4 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: block;
+    box-sizing: border-box;
+
+    
+}
+.name-client .name-4 i{
+    padding-top: 20px;
+    font-size: 10px;
+    margin-left: 5px;
+    color: #ff9800
+}
+.name-client .name-4 .hh{
+    color: #ddd;
+    font-weight: bold
+}
+.name-client .name-4 span{
+    display: block;
+    padding-top: 20px;
+    line-height: 30px;
+    font-weight: bold;
+
+}
+.name-client .name-4 label{
+    color: #333;
+}
+
+/**/
+
+.name-client .name-22 ,.name-client .name-33{
+    width: 30%;
+    background: #fff;
+    height: 380px;
+    padding-left: 20px;
+    padding-top: 20px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.name-client .name-22 img ,.name-client .name-33 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: block;
+    box-sizing: border-box;
+
+    
+}
+.name-client .name-22 i ,.name-client .name-33 i{
+    padding-top: 20px;
+    font-size: 10px;
+    margin-left: 5px;
+    color: #ff9800
+}
+.name-client .name-22 span ,.name-client .name-33 span{
+    display: block;
+    padding-top: 40px;
+    line-height: 30px;
+    font-weight: bold;
+
+}
+.name-client .name-22 label ,.name-client .name-33 label{
+    color: #333;
+}
+
+/*finishclient*/
+
+
+/*try*/
+
+.try{
+    width: 100%;
+    margin-top: 80px;
+    position: relative;
+}
+.try h2{
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    
+}
+.over-4{
+    width: 40px;
+    height: 2px;
+    background: #0984e9;
+    position: absolute;
+    left: 48%;
+    
+}
+.try p{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    color: #333;
+}
+.try .try-btn{
+  width: 100%;
+    text-align: center;
+    margin-top: 20px
+}
+.try-btn button{
+    border: 0;
+    width: 130px;
+    height: 35px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background: #085590;
+    color: #fff
+}
+.try .try-img{
+    margin-top: 100px;
+    width: 100%;
+    text-align: center
+    
+}
+
+.try-nif{
+    width: 100%;
+    height: 200px
+}
+.try-nif .try-nif-1 ,.try-nif .try-nif-2 ,.try-nif .try-nif-3 ,.try-nif .try-nif-4{
+    width:45.9%;
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: 30px
+}
+.try-nif .try-nif-2 , .try-nif .try-nif-4{
+    margin-left: 35px;  
+}
+
+.try-nif .try-nif-1 i ,.try-nif .try-nif-2 i ,.try-nif .try-nif-3 i,.try-nif .try-nif-4 i {
+    color: #0984e9;
+    padding-right: 10px
+}
+.try-nif .try-nif-1 h3 ,.try-nif .try-nif-2 h3 ,.try-nif .try-nif-3 h3,.try-nif .try-nif-4 h3{
+    text-transform: capitalize;
+}
+.try-nif .try-nif-1 p ,.try-nif .try-nif-2 p ,.try-nif .try-nif-3 p ,.try-nif .try-nif-4 p{
+    line-height: 30px;
+    text-align: left
+}
+/*finish try*/
+
+
+.footer{
+    width: 100%;
+    background: #085590;
+    height: 250px;
+    margin-top: 80px;
+}
+.footer h2{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    text-transform: capitalize;
+    color: #fff
+}
+.footer p{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.footer p button{
+   width: 130px;
+    height: 35px;
+     text-transform: capitalize;
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+    border: 0;
+    
+}/* fininsh footer*/
+
+
+
+
+/*content*/
+
+.content{
+    width: 100%;
+   padding-top: 100px;
+    height: 600px;
+    background: #2196f342
+}
+.content .content-input {
+    width: 46%;
+    background: #fff;
+    height: 510px;
+    text-align: center;
+    border: 1px solid #ddd;
+    float: left;
+}
+.content .content-input h2{
+    text-transform: capitalize;
+    padding-top: 25px;;
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 23px;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+.content .content-input input{
+    width: 90%;
+    margin-bottom: 10px;
+    height: 40px;
+    padding-left: 10px
+}
+.content .content-input textarea{
+    width: 90%;
+    padding-left: 10px;
+    padding-top: 5px;
+    
+}
+.content .content-input .no{
+    width: 100%;
+    text-align: left;
+    margin-left: 25px
+}
+.content .content-input input[type=button]{
+    width: 130px;
+    height: 35px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background: #085590;
+    color: #fff;
+    border: 0;
+    margin-top: 20px;
+    
+    
+}
+
+.content-personal{
+    width: 50%;
+    float: left ;
+    padding-left: 100px;
+    box-sizing: border-box;
+    
+}
+.content-personal h3{
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #333
+}
+.content-personal p{
+    padding-bottom: 35px;
+    text-transform: capitalize;
+    color: #333
+}/* finish content*/
+
+
+.footer-finish{
+    width: 100%;
+    background: #085590;
+    height: 200px;
+}
+
+.footer-finish p{
+    text-align: center;
+    padding-top: 40px;
+}
+.footer-finish p i{
+    font-size: 25px;
+    margin-left: 25px;
+    color: #999;
+    padding-bottom: 25px;
+    cursor: pointer;
+}
+.footer-finish h4 , .footer-finish h3{
+    font-size: 18px;
+    text-transform: capitalize;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 200;
+    color: #fff
+}
+
+.footer-finish h3 span{
+    color: #999;
+
+}
