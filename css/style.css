@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 body{
     margin: 0;
@@ -21,7 +22,16 @@ ul, li{
 .clear{
     clear: both;
 }
-
+.scrol{
+    position: fixed;
+    right: 15px;
+    bottom: 0;
+    cursor: pointer;
+    font-size: 40px;
+    color: #f50;
+    z-index: 1;
+    color: #0984e3
+}
 
                     /*      first header & banner    */
 
@@ -870,19 +880,28 @@ ul, li{
     float: left ;
     padding-left: 100px;
     box-sizing: border-box;
+    padding-top: 10px
     
 }
 .content-personal h3{
     padding-bottom: 20px;
     font-size: 20px;
     text-transform: capitalize;
-    color: #333
+    color: #333;
+
 }
 .content-personal p{
     padding-bottom: 35px;
     text-transform: capitalize;
-    color: #333
-}/* finish content*/
+    color: #333;
+    cursor: pointer;
+
+}
+
+.content-personal p:hover{
+    text-decoration: underline;
+}
+    /* finish content*/
 
 
 .footer-finish{
