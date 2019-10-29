@@ -50,6 +50,7 @@ ul, li{
     width: 20%;
     float: left;
     margin-top: 20px;
+    cursor: pointer;
 }
 .opacity{
     background: rgba(0, 0, 0, .4);
@@ -61,18 +62,29 @@ ul, li{
     width: 80%;
     float: left;
     text-align: right;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .header ul li{
     display: inline-block;
     width: 100px;
+    text-align: center;
 }
+
+
 
 .header ul li a{
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 14px;
     text-decoration: none;
-    color: #fff
+    color: #fff;
+    padding: 20px 30px;
+    display: inline-block;
+    transition: all .3s ease-in-out;
+    
+}
+.header ul li a:hover{
+    color: #7309;
+    font-size: 15px;
 }
 
 .banner{
@@ -88,8 +100,19 @@ ul, li{
     font-weight: 500;
     color: #fff;
     line-height: 45px;
-    padding-bottom: 20px;
-    
+    padding-bottom: 20px; 
+    animation: typing 5s infinite ;
+    white-space: nowrap;
+    overflow: hidden;
+   padding-left: 500px
+}
+@keyframes typing{
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width: 16ch;
+    }
 }
 .banner button{
     width: 150px;
@@ -100,15 +123,28 @@ ul, li{
     border: 0;
     cursor: pointer;
     font-weight: bold;
+    transition: all .3s ease-in-out;
+    position: relative;
 }
+
+
+
+
 .banner .btn-1{
     background: #0984e3
-    
+}
+.banner .btn-1:hover{
+    background: #8f582e;
+    width: 154px;
 }
 .banner .btn-2{
     background: none;
     border: 1px solid #fff;
     margin-left: 5px;
+}
+.banner .btn-2:hover{
+    background: #7b6969bd;
+    width: 154px;
 }
 
 
@@ -366,12 +402,18 @@ ul, li{
     font-size: 15px;
     color: #0984e9;
     padding: 10px 0;
+    cursor: pointer;
 }
 .features .bann-2 .h-11 h6{
     font-size: 17px;
     text-transform: capitalize;
     color: #333
-}/* finish bann-3 */
+}
+.features-1 i:hover{
+    cursor: pointer;
+    font-size: 20px;
+}
+/* finish bann-3 */
 
 
         /* finish features */
@@ -414,6 +456,14 @@ ul, li{
     margin-top: 100px;
     height: 430px
 }
+.saller .btn:hover{
+    transition: 5.s all ease-in-out;
+    background: #0984e9;
+}
+.saller .btn-2:hover{
+    background: #000;
+
+}
 .saller-1 , .saller-2 , .saller-3{
     width: 32%;
     margin-left: 13px;
@@ -423,6 +473,12 @@ ul, li{
     box-sizing: border-box;
     box-shadow: 2px 5px 10px #999
 }
+.saller-1 i:hover , .saller-2 i:hover , .saller-3 i:hover{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
 .saller-1 h6 ,.saller-2 h6,.saller-3 h6{
     text-align: center;
     text-transform: uppercase;
@@ -738,7 +794,15 @@ ul, li{
 .try .try-btn{
   width: 100%;
     text-align: center;
-    margin-top: 20px
+    margin-top: 20px;
+}
+.try .try-btn button:hover{
+    width: 146;
+    cursor: pointer;
+    background: #2196f342;
+    color: #000;
+    font-weight: bolder;
+    font-size: 15px;
 }
 .try-btn button{
     border: 0;
@@ -747,7 +811,8 @@ ul, li{
     text-transform: capitalize;
     cursor: pointer;
     background: #085590;
-    color: #fff
+    color: #fff;
+     transition: .4s all ease-in-out
 }
 .try .try-img{
     margin-top: 100px;
@@ -813,8 +878,15 @@ ul, li{
     background: #000;
     color: #fff;
     border: 0;
+     transition: .4s all ease-in-out
     
-}/* fininsh footer*/
+}
+.footer .bb:hover{
+    background: #2388;
+    width: 149px;
+    font-size: 15px;
+}
+/* fininsh footer*/
 
 
 
@@ -825,7 +897,7 @@ ul, li{
     width: 100%;
    padding-top: 100px;
     height: 600px;
-    background: #2196f342
+    background: #2196f342;
 }
 .content .content-input {
     width: 46%;
@@ -849,8 +921,17 @@ ul, li{
     width: 90%;
     margin-bottom: 10px;
     height: 40px;
-    padding-left: 10px
+    padding-left: 10px;
+    transition: all .4s ease-in-out;
 }
+.content .content-input input[type=button]:hover{
+    background: #2388;
+    width: 135px;
+    font-size: 13px;
+    color:#000;
+    font-weight: bold
+}
+
 .content .content-input textarea{
     width: 90%;
     padding-left: 10px;
